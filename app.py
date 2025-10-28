@@ -47,7 +47,7 @@ def draw_3d_poster(n_blobs, seed_val):
         ax.fill(x, y, color=color, alpha=alpha_val, zorder=i + 1)
 
     # 라벨
-    ax.text(0.05, 0.95, "3D-like Poster", fontsize=18, weight='bold', transform=ax.transAxes)
+    ax.text(0.05, 0.95, "Poster", fontsize=18, weight='bold', transform=ax.transAxes)
     ax.text(0.05, 0.91, f"Seed: {seed_val}, Blobs: {n_blobs}", fontsize=11, transform=ax.transAxes)
 
     return fig
