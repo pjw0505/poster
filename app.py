@@ -55,7 +55,7 @@ def draw_3d_poster(n_blobs, seed_val):
 # --- 💻 Streamlit 앱 메인 함수 ---
 def main():
     st.set_page_config(layout="centered")
-    st.title("Generative 3D-like Poster")
+    st.title("Generative Poster")
 
     st.sidebar.header("Poster Controls")
     
